@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>mememakr</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel='shortcut icon' type='image/png' href='./icon.png' />
+  </head>
+
+  <body>
+    <input type='file' name="file" onchange="readURL(this);" style="background: rgba(0, 0, 0, 0.5); position: fixed; left: 0; top: 10%; color: white;" />
+    <div> <input type="text" placeholder="TOP TEXT" aria-label="TOP TEXT"
+        style="top: 1%; " label="top" id="top"></input>
+      <input type="text" placeholder="BOTTOM TEXT"
+        style="bottom: 1%;" aria-label="BOTTOM TEXT"
+        label="BOTTOM" id="BOTTOM"></input></div>
+    <script src="https://unpkg.com/file-saver"></script>
+    <script src="https://unpkg.com/dom-to-image"></script>
+    <script src="./main.js" defer></script>
+  </body>
+
+</html>
