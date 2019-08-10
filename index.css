@@ -21,7 +21,7 @@ div {
   background-image: url('./background.jpg');
   width: 100vw;
   height: 100vh;
-  background-size: 50%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
