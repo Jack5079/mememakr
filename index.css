@@ -5,6 +5,9 @@
   padding: 0;
 }
 
+body {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
 input[type="text"] {
   position: fixed;
   background: transparent;
@@ -15,8 +18,10 @@ input[type="text"] {
   left: 0; font-size: 2vw; width: 100vw;
 }
 div {
-  background: url('./background.jpg');
+  background-image: url('./background.jpg');
   width: 100vw;
   height: 100vh;
-  background-size: cover;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }

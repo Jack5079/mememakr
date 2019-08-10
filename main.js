@@ -14,7 +14,7 @@ function readURL (input) {
     var reader = new FileReader()
 
     reader.onload = function (e) {
-      document.querySelector('div').style.background = `url('${e.target.result}')`
+      document.querySelector('div').style.backgroundImage = `url('${e.target.result}')`
     }
 
     reader.readAsDataURL(input.files[0])
