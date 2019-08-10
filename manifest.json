@@ -6,7 +6,7 @@
   "display": "standalone",
   "start_url": "https://jack5079.tk/mememakr/",
   "short_name": "mememakr",
-  "theme_color": "transparent",
+  "theme_color": "white",
   "description": "ironic meme maker",
   "orientation": "any",
   "background_color": "#ffffff",
