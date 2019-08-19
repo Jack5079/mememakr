@@ -2,7 +2,7 @@
 function save () {
   domtoimage.toBlob(document.querySelector('div'))
     .then(function (blob) {
-      saveAs(blob, 'meme.png')
+      saveAs(blob, `meme-${String(Math.random()).substring(15)}.png`)
     })
 }
 
