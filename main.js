@@ -1,13 +1,10 @@
 /* global saveAs, domtoimage, FileReader */
-function download (e) {
-  if (e.key === 'Enter') {
-    domtoimage.toBlob(document.querySelector('div'))
-      .then(function (blob) {
-        saveAs(blob, 'meme.png')
-      })
-  }
+function save () {
+  domtoimage.toBlob(document.querySelector('div'))
+    .then(function (blob) {
+      saveAs(blob, 'meme.png')
+    })
 }
-document.querySelectorAll('input').forEach(e => e.addEventListener('keyup', download))
 
 function readURL (input) {
   if (input.files && input.files[0]) {
@@ -20,3 +17,5 @@ function readURL (input) {
     reader.readAsDataURL(input.files[0])
   }
 }
+
+document.querySelector('button').addEventListener('click', save)
