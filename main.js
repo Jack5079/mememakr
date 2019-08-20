@@ -19,3 +19,4 @@ function readURL (input) {
 }
 
 document.querySelector('button').addEventListener('click', save)
+document.querySelector('#file').addEventListener('change', readURL)

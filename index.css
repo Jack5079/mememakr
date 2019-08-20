@@ -8,6 +8,10 @@
 body {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
+input[type="file"] {
+  background: rgba(0, 0, 0, 0.5); position: fixed; left: 0; top: 10%; color: white;
+}
+
 input[type="text"] {
   position: fixed;
   background: transparent;
