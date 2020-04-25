@@ -4,7 +4,7 @@
   "name": "mememakr",
   "scope": "/mememakr/",
   "display": "standalone",
-  "start_url": "https://jack5079.tk/mememakr/",
+  "start_url": "https://jack5079.github.io/mememakr/",
   "short_name": "mememakr",
   "theme_color": "white",
   "description": "ironic meme maker",
@@ -15,7 +15,7 @@
   "generated": "true",
   "icons": [
     {
-      "src": "https://jack5079.tk/mememakr/icon.png",
+      "src": "https://jack5079.github.io/mememakr/icon.png",
       "sizes": "512x512"
     }
   ]
